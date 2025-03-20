@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>  </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <div id="top-div">
+        <div id="hello-text" > Snow Projections - 6 Months</div>
+        <div id="ndma-logo"><a href="main.html">
+            <img src="data/ndma_logo.png" alt="NDMA Icon"></a>
+        </div>
+     
+    </div>
+    <div id="snow"></div>
+
+    <video id="bgVideo" autoplay loop muted playsinline>
+      <source src="data/production_id_4359173 (1440p).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+
+</div><div class="main">
+  <div class="marquee-container">
+    <iframe id="frame1" scrolling="no" width="405" height="300" src="file:///C:/Users/Elegant%20Solutions/Downloads/Projects/Local%20side%20portal/Leaflet/Leaflet/HI/qgis2web_2024_03_03-23_09_42_686278/index.html#4/30.16/72.20"  style="top:420px; right: 100px; position:absolute; z-index:1000;"></iframe>
+    <iframe id="frame2" scrolling="no" width="405" height="300" src="file:///C:/Users/Elegant%20Solutions/Downloads/Projects/Local%20side%20portal/Leaflet/Leaflet/Temp/qgis2web_2024_03_03-22_14_20_623991/index.html#6/30.615/69.554" style="position:absolute; top:100px; right: 100px;  z-index:1000;"></iframe>
+    <iframe id="frame3" scrolling="no" width="405" height="300" src="file:///C:/Users/Elegant%20Solutions/Downloads/Projects/Local%20side%20portal/Leaflet/Leaflet/Precip/qgis2web_2024_03_03-22_49_52_078275/index.html#6/30.738/69.556" style="position:absolute; top:740px; right: 100px;  z-index:1000;"></iframe>
+    <video id="snowvid" width="405" height="330" style="margin-top:100px;position:absolute; top:1100px; right: 100px;  z-index:1000;" autoplay loop muted playsinline>
+      <source src="Snow Cover Change_Badswat.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  </div>
+<iframe id="stationaryFrame"  scrolling="no"   width="405" height="300"  src="file:///C:/Users/Elegant%20Solutions/Downloads/Projects/Local%20side%20portal/data/snow%20data/snow%20data/qgis2web_2024_03_15-12_55_51_030272/index.html#6/30.633/70.098" style="top:100px; right: 600px; width:1205px; height:620px; z-index:1000; "></iframe>
+<div id="header1">
+  <h2 >Spatio-Temporal Snow Cover Analysis</h2>
+</div>
+<div id="graphvid">
+  <video id="marchvid" autoplay loop muted playsinline>
+    <source src="Projected videos/Temp Comparison 2021-2024/August.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+<div id="legend3">
+  <img src="data/legends/Snow Cover Legend.png"style=" height:180px; width:220px;">
+</div> 
+<div id="infovid">
+  <video id="infovida" autoplay loop muted playsinline>
+    <source src="Projected videos/Infographics/August S-T relation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+  <div class="sidebar">
+    <div class="logo-details">
+        <a href="main.html"> <i class='bx bx-arrow-back icon'></i></a>
+        <div class="logo_name"></div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+   <!--    <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li> -->
+      <li>
+        <a href="march.html">
+          <i class='bx bx-dice-1' ></i>
+          <span class="links_name">March</span>
+        </a>
+        <span class="tooltip">March</span>
+      </li>
+      <li>
+        <a href="april.html">
+          <i class='bx bx-dice-2' ></i>
+          <span class="links_name">April</span>
+        </a>
+        <span class="tooltip">April</span>
+      </li>
+      <li>
+        <a href="may.html">
+          <i class='bx bx-dice-3' ></i>
+          <span class="links_name">May</span>
+        </a>
+        <span class="tooltip">May</span>
+      </li>
+      <li>
+        <a href="june.html">
+          <i class='bx bx-dice-4' ></i>
+          <span class="links_name">June</span>
+        </a>
+        <span class="tooltip">June</span>
+      </li>
+      <li>
+        <a href="july.html">
+          <i class='bx bx-dice-5' ></i>
+          <span class="links_name">July</span>
+        </a>
+        <span class="tooltip">July </span>
+      </li>
+      <li>
+        <a href="august.html">
+          <i class='bx bx-dice-6' ></i>
+          <span class="links_name">August</span>
+        </a>
+        <span class="tooltip">August </span>
+      </li>
+
+    </ul>
+  </div>
+
+
+  <section class="home-section">
+      <div class="text"></div>
+  </section>
+
+  <script src="index.js"></script>
+  <script src="./PureSnow.js"></script>
+
+</body>
+</html>
